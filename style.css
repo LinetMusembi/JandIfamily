@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #f3f0ff;
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  header {
+    background-color: #b197fc;
+    padding: 20px;
+  }
+  .heading{
+    color: blue;
+  }
+  .laugh{
+   color: #fd7e14;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .welcome{
+    color: blue;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    gap: 5%;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #home {
+    height: 400px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+  height: 120%;
+  width: 60%;
+  margin-top: 10%;
+  border-radius: 10% 0 10% 0;
+}
+/* @keyframes animate{
+    0%,100%{
+      background-image: url("/images/Pepper.jpg");
+    }
+    25%{
+      background-image: url("/images/image.png");
+    }
+    50%{
+      background-image: url("/images/mangoes.jpg");
+    }
+    75%{
+      background-image: url("/images/fresh.jpg");
+    }
+    100%{
+      background-image: url("/images/bacground.jpg");
+    }
+  }
+
+.container{
+    position: absolute;
+    left: 0;
+    top: 18;
+    width: 100%;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+  } */
